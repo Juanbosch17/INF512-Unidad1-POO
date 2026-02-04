@@ -11,4 +11,7 @@ public class Vehiculo
     {
         Console.WriteLine("El vehículo ha encendido correctamente.");
     }
+    public void MostrarInformacion()
+    {
+        Console.Writeline($"Marca: {Marca}, Modelo: {Modelo}");
 }
