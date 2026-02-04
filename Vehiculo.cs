@@ -6,7 +6,7 @@ public class Vehiculo
     public string Marca { get; set; }
     public string Modelo { get; set; }
 
-    // Método coherente con POO
+    // Metodo coherente con POO
     public void Encender() 
     {
         Console.WriteLine("El vehículo ha encendido correctamente.");
